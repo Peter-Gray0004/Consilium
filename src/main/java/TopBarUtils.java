@@ -3,22 +3,12 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 import javafx.scene.control.Label;
-import javafx.util.Pair;
 
 public class TopBarUtils {
 
     
 
-    public static Pair<Label, Label> timeAndDate() {
-        
-        Label timeLabel = updateTime();
-        Label dateLabel = updateDate();
-
-        return new Pair<>(timeLabel, dateLabel);
-    }
-
-
-    private static Label updateTime() {
+    public static Label updateTime() {
         Boolean is24HourFormat = true;
         //Get current time
         LocalTime currentTime = LocalTime.now();
@@ -39,7 +29,7 @@ public class TopBarUtils {
         return timeLabel;
     }
 
-    private static Label updateDate() {
+    public static Label updateDate() {
         boolean monthDayYearFormat = false;
         //Get current date
         LocalDate currentDate = LocalDate.now();
