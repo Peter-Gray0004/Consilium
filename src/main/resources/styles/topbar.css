@@ -1,0 +1,14 @@
+.top-menu {
+    -fx-border-color: transparent transparent linear-gradient(to right, #f1f1f1, #aaaaaa, #f1f1f1) transparent;
+    -fx-border-width: 0 0 1 0;
+
+}
+.top-label {
+    -fx-padding: 25 25 25 25;
+}
+.top-label-date {
+    -fx-padding: 0 25 30 25;
+}
+.top-label-time {
+    -fx-padding: 30 25 0 25;
+}

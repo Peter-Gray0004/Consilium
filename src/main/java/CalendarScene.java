@@ -9,14 +9,15 @@ public class CalendarScene {
 
     public CalendarScene(Stage stage) {
         BorderPane borderPane = new BorderPane();
-
+        
         // Creates the items for the top interface IE: Name, Weather, Time.
         HBox topMenu =  new TopBar().topMenuContent();
         borderPane.setTop(topMenu);
     
-        scene = new Scene(borderPane, 400, 300);
-    }
+        scene = new Scene(borderPane, 800, 600);
 
+
+    }
 
     
     public Scene getScene() {

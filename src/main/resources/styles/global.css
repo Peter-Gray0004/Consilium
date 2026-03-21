@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("/fonts/Montserrat.ttf"); 
+}
+
+.root {
+    -fx-font-family: 'Montserrat', sans-serif;
+    background-color: #f1f1f1;
+}
